@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyTune</string>
+
+    <string name="tap_retry">
+        Failed to load data
+        \nTap to retry
+    </string>
+
+    <string name="track_name">Sample Track ft. Mark</string>
+    <string name="track_genre">Soundtrack</string>
+    <string name="track_price">$1.29</string>
+    <string name="divider"> | </string>
+
+    <string name="detail_desc">
+        Experience the triumph of the Force in Star Wars:
+        Episode VI - Return of the Jedi. In the epic conclusion of the saga,
+        the Empire prepares to crush the Rebellion with a more powerful Death Star
+        while the Rebel fleet mounts a massive attack on the space station.
+        Luke Skywalker confronts Darth Vader in a final climactic duel before
+        the evil Emperor.
+    </string>
+</resources>

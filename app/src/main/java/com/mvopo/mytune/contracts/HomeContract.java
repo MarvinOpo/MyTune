@@ -18,6 +18,8 @@ public class HomeContract {
 
         void showProgressBar();
         void hideProgressBar();
+
+        void toastConnectionError();
     }
 
     public interface HomeAction{

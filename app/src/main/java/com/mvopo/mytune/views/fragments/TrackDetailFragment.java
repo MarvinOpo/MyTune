@@ -42,7 +42,7 @@ public class TrackDetailFragment extends Fragment {
         return view;
     }
 
-    //Load data to their respective fields
+    ///Load data to their respective fields
     public void setViewData(){
         Glide.with(getContext())
                 .load(track.getTrackArt())

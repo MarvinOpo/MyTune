@@ -50,6 +50,9 @@ public class HomePresenter implements HomeContract.HomeAction {
             public void onFailure(Call<TrackList> call, Throwable t) {
                 //Show retry if there is no local data
                 if (homeView.isListEmpty()) homeView.showTapRetry();
+
+                homeView.hideProgressBar();
+                homeView.toastConnectionError();
             }
         });
     }

@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.mvopo.mytune.DBApp;
 import com.mvopo.mytune.R;
@@ -100,7 +101,6 @@ public class HomeFragment extends Fragment implements HomeContract.HomeView {
 
     @Override
     public void showTapRetry() {
-        hideProgressBar();
         tapRetryTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -124,6 +124,11 @@ public class HomeFragment extends Fragment implements HomeContract.HomeView {
     @Override
     public void showProgressBar() {
         progressBar.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void toastConnectionError() {
+        Toast.makeText(getContext(), R.string.conn_failed, Toast.LENGTH_SHORT).show();
     }
 
     @Override

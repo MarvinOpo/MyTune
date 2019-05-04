@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">MyTune</string>
 
+    <string name="conn_failed">Failed to fetch new data</string>
+
     <string name="tap_retry">
-        Failed to load data
+        Failed to connect to server
         \nTap to retry
     </string>
 
